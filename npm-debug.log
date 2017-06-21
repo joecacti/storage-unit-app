@@ -1,0 +1,380 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular-route' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose config Skipping project config: /Users/jlangley/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/jlangley/package.json
+6 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/accord/package.json
+7 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/align-text/package.json
+8 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/angular/package.json
+9 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/angular-ui-bootstrap/package.json
+10 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/angular-youtube-embed/package.json
+11 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/ansi-regex/package.json
+12 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/ansi-styles/package.json
+13 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/archy/package.json
+14 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/array-differ/package.json
+15 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/array-uniq/package.json
+16 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/asap/package.json
+17 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/async/package.json
+18 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/balanced-match/package.json
+19 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/beeper/package.json
+20 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/brace-expansion/package.json
+21 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/builtin-modules/package.json
+22 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/camelcase/package.json
+23 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/camelcase-keys/package.json
+24 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/center-align/package.json
+25 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/chalk/package.json
+26 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/cliui/package.json
+27 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/clone/package.json
+28 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/clone-stats/package.json
+29 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/concat-map/package.json
+30 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/convert-source-map/package.json
+31 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/core-util-is/package.json
+32 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/dateformat/package.json
+33 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/decamelize/package.json
+34 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/defaults/package.json
+35 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/deprecated/package.json
+36 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/duplexer2/package.json
+37 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/end-of-stream/package.json
+38 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/errno/package.json
+39 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/error-ex/package.json
+40 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/escape-string-regexp/package.json
+41 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/extend/package.json
+42 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/fancy-log/package.json
+43 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/find-index/package.json
+44 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/find-up/package.json
+45 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/findup-sync/package.json
+46 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/first-chunk-stream/package.json
+47 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/flagged-respawn/package.json
+48 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/fobject/package.json
+49 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/gaze/package.json
+50 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/get-stdin/package.json
+51 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/glob/package.json
+52 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/glob-stream/package.json
+53 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/glob-watcher/package.json
+54 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/glob2base/package.json
+55 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/globule/package.json
+56 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/glogg/package.json
+57 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/graceful-fs/package.json
+58 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/gulp/package.json
+59 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/gulp-less/package.json
+60 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/gulp-util/package.json
+61 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/gulplog/package.json
+62 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/has-ansi/package.json
+63 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/has-gulplog/package.json
+64 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/hosted-git-info/package.json
+65 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/image-size/package.json
+66 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/indent-string/package.json
+67 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/indx/package.json
+68 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/inflight/package.json
+69 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/inherits/package.json
+70 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/interpret/package.json
+71 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/is-arrayish/package.json
+72 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/is-buffer/package.json
+73 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/is-builtin-module/package.json
+74 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/is-finite/package.json
+75 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/is-utf8/package.json
+76 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/isarray/package.json
+77 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/kind-of/package.json
+78 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lazy-cache/package.json
+79 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/less/package.json
+80 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/liftoff/package.json
+81 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/load-json-file/package.json
+82 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash/package.json
+83 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._basecopy/package.json
+84 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._basetostring/package.json
+85 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._basevalues/package.json
+86 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._getnative/package.json
+87 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._isiterateecall/package.json
+88 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._reescape/package.json
+89 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._reevaluate/package.json
+90 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash._reinterpolate/package.json
+91 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.escape/package.json
+92 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.isarguments/package.json
+93 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.isarray/package.json
+94 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.keys/package.json
+95 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.restparam/package.json
+96 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.template/package.json
+97 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lodash.templatesettings/package.json
+98 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/longest/package.json
+99 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/loud-rejection/package.json
+100 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/lru-cache/package.json
+101 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/map-obj/package.json
+102 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/meow/package.json
+103 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/mime/package.json
+104 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/minimatch/package.json
+105 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/minimist/package.json
+106 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/mkdirp/package.json
+107 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/mocha/package.json
+108 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/multipipe/package.json
+109 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/normalize-package-data/package.json
+110 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/number-is-nan/package.json
+111 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/object-assign/package.json
+112 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/once/package.json
+113 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/orchestrator/package.json
+114 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/ordered-read-streams/package.json
+115 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/os-homedir/package.json
+116 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/parse-json/package.json
+117 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/path-exists/package.json
+118 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/path-is-absolute/package.json
+119 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/path-type/package.json
+120 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/pify/package.json
+121 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/pinkie/package.json
+122 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/pinkie-promise/package.json
+123 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/pretty-hrtime/package.json
+124 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/process-nextick-args/package.json
+125 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/promise/package.json
+126 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/prr/package.json
+127 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/read-pkg/package.json
+128 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/read-pkg-up/package.json
+129 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/readable-stream/package.json
+130 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/rechoir/package.json
+131 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/redent/package.json
+132 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/repeat-string/package.json
+133 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/repeating/package.json
+134 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/replace-ext/package.json
+135 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/resolve/package.json
+136 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/right-align/package.json
+137 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/semver/package.json
+138 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/sequencify/package.json
+139 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/sigmund/package.json
+140 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/signal-exit/package.json
+141 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/source-map/package.json
+142 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/sparkles/package.json
+143 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/spdx-correct/package.json
+144 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/spdx-exceptions/package.json
+145 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/spdx-expression-parse/package.json
+146 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/spdx-license-ids/package.json
+147 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/stream-consume/package.json
+148 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/string_decoder/package.json
+149 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/strip-ansi/package.json
+150 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/strip-bom/package.json
+151 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/strip-indent/package.json
+152 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/supports-color/package.json
+153 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/through2/package.json
+154 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/tildify/package.json
+155 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/trim-newlines/package.json
+156 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/uglify-js/package.json
+157 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/uglify-to-browserify/package.json
+158 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/unique-stream/package.json
+159 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/user-home/package.json
+160 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/util-deprecate/package.json
+161 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/v8flags/package.json
+162 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/validate-npm-package-license/package.json
+163 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/vinyl/package.json
+164 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/vinyl-fs/package.json
+165 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/vinyl-sourcemaps-apply/package.json
+166 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/when/package.json
+167 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/window-size/package.json
+168 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/wordwrap/package.json
+169 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/wrappy/package.json
+170 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/xtend/package.json
+171 verbose installManyTop reading scoped package data from /Users/jlangley/node_modules/yargs/package.json
+172 info package.json globule@0.1.0 No license field.
+173 info package.json sequencify@0.0.7 No license field.
+174 info package.json asap@2.0.3 license should be a valid SPDX license expression
+175 info package.json deprecated@0.0.1 No license field.
+176 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+177 info package.json async@0.2.10 No license field.
+178 info package.json findup-sync@0.3.0 No license field.
+179 info package.json flagged-respawn@0.3.1 No license field.
+180 info package.json glob-watcher@0.0.6 No license field.
+181 info package.json glob2base@0.0.12 No license field.
+182 info package.json glob-stream@3.1.18 No license field.
+183 info package.json gaze@0.5.2 No license field.
+184 info package.json longest@1.0.1 license should be a valid SPDX license expression
+185 info package.json mime@1.3.4 No license field.
+186 info package.json orchestrator@0.3.7 No license field.
+187 info package.json rechoir@0.6.2 No license field.
+188 info package.json replace-ext@0.0.1 No license field.
+189 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+190 info package.json unique-stream@1.0.0 license should be a valid SPDX license expression
+191 info package.json v8flags@2.0.11 No license field.
+192 info package.json vinyl-fs@0.3.14 No license field.
+193 info package.json wordwrap@0.0.2 license should be a valid SPDX license expression
+194 info package.json window-size@0.1.0 No license field.
+195 verbose readDependencies loading dependencies from /Users/jlangley/package.json
+196 silly cache add args [ 'angular-route', null ]
+197 verbose cache add spec angular-route
+198 silly cache add parsed spec Result {
+198 silly cache add   raw: 'angular-route',
+198 silly cache add   scope: null,
+198 silly cache add   name: 'angular-route',
+198 silly cache add   rawSpec: '',
+198 silly cache add   spec: 'latest',
+198 silly cache add   type: 'tag' }
+199 silly addNamed angular-route@latest
+200 verbose addNamed "latest" is being treated as a dist-tag for angular-route
+201 info addNameTag [ 'angular-route', 'latest' ]
+202 silly mapToRegistry name angular-route
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry data Result {
+205 silly mapToRegistry   raw: 'angular-route',
+205 silly mapToRegistry   scope: null,
+205 silly mapToRegistry   name: 'angular-route',
+205 silly mapToRegistry   rawSpec: '',
+205 silly mapToRegistry   spec: 'latest',
+205 silly mapToRegistry   type: 'tag' }
+206 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+207 verbose addNameTag registry:https://registry.npmjs.org/angular-route not in flight; fetching
+208 verbose request uri https://registry.npmjs.org/angular-route
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 2:04:15 PM
+211 verbose request id b791863dfc77bac3
+212 http request GET https://registry.npmjs.org/angular-route
+213 http 200 https://registry.npmjs.org/angular-route
+214 verbose headers { server: 'nginx/1.10.1',
+214 verbose headers   'content-type': 'application/json',
+214 verbose headers   'last-modified': 'Sun, 14 May 2017 03:05:12 GMT',
+214 verbose headers   etag: 'W/"5917c968-17d2a"',
+214 verbose headers   'content-encoding': 'gzip',
+214 verbose headers   'cache-control': 'max-age=300',
+214 verbose headers   'content-length': '10507',
+214 verbose headers   'accept-ranges': 'bytes',
+214 verbose headers   date: 'Wed, 24 May 2017 18:04:15 GMT',
+214 verbose headers   via: '1.1 varnish',
+214 verbose headers   age: '0',
+214 verbose headers   connection: 'keep-alive',
+214 verbose headers   'x-served-by': 'cache-atl6243-ATL',
+214 verbose headers   'x-cache': 'HIT',
+214 verbose headers   'x-cache-hits': '1',
+214 verbose headers   'x-timer': 'S1495649056.713456,VS0,VE42',
+214 verbose headers   vary: 'Accept-Encoding' }
+215 silly get cb [ 200,
+215 silly get   { server: 'nginx/1.10.1',
+215 silly get     'content-type': 'application/json',
+215 silly get     'last-modified': 'Sun, 14 May 2017 03:05:12 GMT',
+215 silly get     etag: 'W/"5917c968-17d2a"',
+215 silly get     'content-encoding': 'gzip',
+215 silly get     'cache-control': 'max-age=300',
+215 silly get     'content-length': '10507',
+215 silly get     'accept-ranges': 'bytes',
+215 silly get     date: 'Wed, 24 May 2017 18:04:15 GMT',
+215 silly get     via: '1.1 varnish',
+215 silly get     age: '0',
+215 silly get     connection: 'keep-alive',
+215 silly get     'x-served-by': 'cache-atl6243-ATL',
+215 silly get     'x-cache': 'HIT',
+215 silly get     'x-cache-hits': '1',
+215 silly get     'x-timer': 'S1495649056.713456,VS0,VE42',
+215 silly get     vary: 'Accept-Encoding' } ]
+216 verbose get saving angular-route to /Users/jlangley/.npm/registry.npmjs.org/angular-route/.cache.json
+217 verbose correctMkdir /Users/jlangley/.npm correctMkdir not in flight; initializing
+218 silly addNameTag next cb for angular-route with tag latest
+219 silly addNamed angular-route@1.6.4
+220 verbose addNamed "1.6.4" is a plain semver version for angular-route
+221 silly mapToRegistry name angular-route
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry data Result {
+224 silly mapToRegistry   raw: 'angular-route',
+224 silly mapToRegistry   scope: null,
+224 silly mapToRegistry   name: 'angular-route',
+224 silly mapToRegistry   rawSpec: '',
+224 silly mapToRegistry   spec: 'latest',
+224 silly mapToRegistry   type: 'tag' }
+225 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+226 verbose addRemoteTarball https://registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz not in flight; adding
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz',
+227 verbose addRemoteTarball   '7bb216fcda746a1b8c452054b05900a7074ecc62' ]
+228 info retry fetch attempt 1 at 2:04:15 PM
+229 info attempt registry request try #1 at 2:04:15 PM
+230 http fetch GET https://registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz
+231 http fetch 200 https://registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz
+232 silly fetchAndShaCheck shasum 7bb216fcda746a1b8c452054b05900a7074ecc62
+233 verbose addTmpTarball /var/folders/zw/2vnzxs0n4lv1xs4r326hnv1w0000gn/T/npm-2671-8513f9dc/registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz not in flight; adding
+234 verbose addTmpTarball already have metadata; skipping unpack for angular-route@1.6.4
+235 verbose correctMkdir /Users/jlangley/.npm correctMkdir not in flight; initializing
+236 silly cache afterAdd angular-route@1.6.4
+237 verbose afterAdd /Users/jlangley/.npm/angular-route/1.6.4/package/package.json not in flight; writing
+238 verbose correctMkdir /Users/jlangley/.npm correctMkdir not in flight; initializing
+239 verbose afterAdd /Users/jlangley/.npm/angular-route/1.6.4/package/package.json written
+240 silly install resolved [ { name: 'angular-route',
+240 silly install resolved     version: '1.6.4',
+240 silly install resolved     description: 'AngularJS router module',
+240 silly install resolved     main: 'index.js',
+240 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+240 silly install resolved     repository:
+240 silly install resolved      { type: 'git',
+240 silly install resolved        url: 'git+https://github.com/angular/angular.js.git' },
+240 silly install resolved     keywords: [ 'angular', 'framework', 'browser', 'router', 'client-side' ],
+240 silly install resolved     author:
+240 silly install resolved      { name: 'Angular Core Team',
+240 silly install resolved        email: 'angular-core+npm@google.com' },
+240 silly install resolved     license: 'MIT',
+240 silly install resolved     bugs: { url: 'https://github.com/angular/angular.js/issues' },
+240 silly install resolved     homepage: 'http://angularjs.org',
+240 silly install resolved     jspm: { shim: [Object] },
+240 silly install resolved     gitHead: '9c94b8cdfbd050b7dfd83a7cc019ebaed1825018',
+240 silly install resolved     _id: 'angular-route@1.6.4',
+240 silly install resolved     _shasum: '7bb216fcda746a1b8c452054b05900a7074ecc62',
+240 silly install resolved     _from: 'angular-route@latest',
+240 silly install resolved     _npmVersion: '3.10.10',
+240 silly install resolved     _nodeVersion: '6.10.1',
+240 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+240 silly install resolved     dist:
+240 silly install resolved      { shasum: '7bb216fcda746a1b8c452054b05900a7074ecc62',
+240 silly install resolved        tarball: 'https://registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz' },
+240 silly install resolved     maintainers: [ [Object], [Object] ],
+240 silly install resolved     _npmOperationalInternal:
+240 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+240 silly install resolved        tmp: 'tmp/angular-route-1.6.4.tgz_1490952818430_0.7467059837654233' },
+240 silly install resolved     directories: {},
+240 silly install resolved     _resolved: 'https://registry.npmjs.org/angular-route/-/angular-route-1.6.4.tgz' } ]
+241 info install angular-route@1.6.4 into /Users/jlangley
+242 info installOne angular-route@1.6.4
+243 verbose installOne of angular-route to /Users/jlangley not in flight; installing
+244 verbose correctMkdir /Users/jlangley/.npm/_locks correctMkdir not in flight; initializing
+245 verbose lock using /Users/jlangley/.npm/_locks/angular-route-a09218f626c3bd2c.lock for /Users/jlangley/node_modules/angular-route
+246 silly install write writing angular-route 1.6.4 to /Users/jlangley/node_modules/angular-route
+247 verbose unbuild node_modules/angular-route
+248 silly gentlyRm /Users/jlangley/node_modules/angular-route is being purged from base /Users/jlangley
+249 verbose gentlyRm don't care about contents; nuking /Users/jlangley/node_modules/angular-route
+250 verbose tar unpack /Users/jlangley/.npm/angular-route/1.6.4/package.tgz
+251 verbose tar unpacking to /Users/jlangley/node_modules/angular-route
+252 silly gentlyRm /Users/jlangley/node_modules/angular-route is being purged
+253 verbose gentlyRm don't care about contents; nuking /Users/jlangley/node_modules/angular-route
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 error tar.unpack untar error /Users/jlangley/.npm/angular-route/1.6.4/package.tgz
+256 verbose unlock done using /Users/jlangley/.npm/_locks/angular-route-a09218f626c3bd2c.lock for /Users/jlangley/node_modules/angular-route
+257 verbose fstream_path /Users/jlangley/node_modules/angular-route
+258 verbose fstream_type Directory
+259 verbose fstream_class DirWriter
+260 verbose stack Error: EACCES: permission denied, mkdir '/Users/jlangley/node_modules/angular-route'
+260 verbose stack     at Error (native)
+261 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+261 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+261 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+262 verbose cwd /Users/jlangley/Projects-Personal/storage-app
+263 error Darwin 16.6.0
+264 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "angular-route"
+265 error node v4.4.7
+266 error npm  v2.15.8
+267 error path /Users/jlangley/node_modules/angular-route
+268 error code EACCES
+269 error errno -13
+270 error syscall mkdir
+271 error Error: EACCES: permission denied, mkdir '/Users/jlangley/node_modules/angular-route'
+271 error     at Error (native)
+271 error  { [Error: EACCES: permission denied, mkdir '/Users/jlangley/node_modules/angular-route']
+271 error   errno: -13,
+271 error   code: 'EACCES',
+271 error   syscall: 'mkdir',
+271 error   path: '/Users/jlangley/node_modules/angular-route',
+271 error   fstream_type: 'Directory',
+271 error   fstream_path: '/Users/jlangley/node_modules/angular-route',
+271 error   fstream_class: 'DirWriter',
+271 error   fstream_stack:
+271 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+271 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+271 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+272 error Please try running this command again as root/Administrator.
+273 verbose exit [ -13, true ]
+274 verbose unbuild node_modules/angular-route
+275 silly gentlyRm /Users/jlangley/node_modules/angular-route is being purged from base /Users/jlangley
+276 verbose gentlyRm don't care about contents; nuking /Users/jlangley/node_modules/angular-route

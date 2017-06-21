@@ -1,0 +1,64 @@
+<div class="container wrapper" style="margin-top: 100px;">
+
+
+<h1 class="text-center">Customer Administration Page</h1>
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<div class="alert alert-default navbar-brand search-box">
+<button class="btn btn-success" ng-show="show_form" ng-click="formToggle()">Add Customer <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+</div>
+<div class="alert alert-default input-group search-box">
+<span class="input-group-btn">
+<input type="text" class="form-control" placeholder="Search Customer Details Into Database..." ng-model="search_query">
+</span>
+</div>
+</div>
+</nav>
+<div class="col-md-6 col-md-offset-3">
+
+<!-- Include form template which is used to insert data into database -->
+<div ng-include src="'templates/form.html'"></div>
+
+<!-- Include form template which is used to edit and update data into database -->
+<div ng-include src="'templates/editForm.html'"></div>
+</div>
+<div class="clearfix"></div>
+
+<!-- Table to show employee detalis -->
+<div class="table-responsive">
+<table class="table table-hover">
+<tr>
+<th>ID</th>
+<th>Time Submitted</th>
+<th>Name</th>
+<th>Email Address</th>
+<th>Telephone Number</th>
+<th>Best Time to Call</th>
+<th>Preferred Location</th>
+<th>Size</th>
+<th></th>
+<th></th>
+</tr>
+<tr ng-repeat="detail in details| filter:search_query">
+<td>
+<span>{{detail.cust_id}}</span></td>
+<td>{{detail.cust_submittedTime}}</td>
+<td>{{detail.cust_name}}</td>
+<td>{{detail.cust_email}}</td>
+<td>{{detail.cust_telephone}}</td>
+<td>{{detail.cust_time}}</td>
+<td>{{detail.cust_location}}</td>
+<td>{{detail.cust_size}}</td>
+<td>
+<button class="btn btn-warning" ng-click="editInfo(detail)" title="Edit"><span class="glyphicon glyphicon-edit"></span></button>
+</td>
+<td>
+<button class="btn btn-danger" ng-click="deleteInfo(detail)" title="Delete"><span class="glyphicon glyphicon-trash"></span></button>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+</div>

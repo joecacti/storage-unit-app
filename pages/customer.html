@@ -1,0 +1,34 @@
+<div class="container" style="padding: 80px 80px 20px 80px">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="top-banner">
+				<img style="margin-left: auto;margin-right: auto;" class="img-responsive" src="images/banner.png">
+			</div>
+		</div>
+	</div>
+<h1 class="text-center">Welcome!</h1>
+<h3 style="text-align: center">Our office is located at 1201 South Elm St.
+<br>
+Washington Court House, OH 43160
+</h3>
+<div id="time">
+<p style="text-align: center">Hours: Monday - Saturday 11am - 2pm <span id='closed' class="label label-danger">Currently Closed</span></p></div>
+<p style="text-align: center">
+Rent may be deposited in our conveniently located mail slot for 24 hour access
+</p>
+<div class="alert alert-success" role="alert" style="text-align: center;">
+<button class="btn btn-success" ng-show="show_form" ng-click="formToggle()">New Customer Form <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+</div>
+
+<div class="col-md-6 col-md-offset-3">
+
+<!-- Include form template which is used to insert data into database -->
+<div ng-include src="'templates/form.html'"></div>
+
+<!-- Include form template which is used to edit and update data into database -->
+<div ng-include src="'templates/editForm.html'"></div>
+</div>
+<div class="clearfix"></div>
+
+</div>
+</div>

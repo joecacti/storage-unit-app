@@ -1,0 +1,84 @@
+<!-- Form used to add new entries of employee in database -->
+<form class="form-horizontal alert alert-warning" name="custList" id="custForm" ng-submit="insertInfo(custInfo);" hidden>
+<h3 class="text-center">Contact Form</h3>
+	<div class="form-group">
+		<label for="Name">Name:</label>
+		<input type="text" id="nameField" name="cust_name" class="form-control" placeholder="Enter Name" ng-model="custInfo.name" value="" autofocus required />
+	</div>
+	<div class="form-group">
+		<p class="text-danger" ng-show="custList.cust_name.$invalid && custList.cust_name.$dirty">Name field is Empty!</p>
+	</div>
+	<div class="form-group">
+		<label for="Email">Email Address:</label>
+		<input type="email" name="cust_email" class="form-control" placeholder="Enter Email Address" ng-model="custInfo.email" autofocus required />
+	</div>
+	<div class="form-group">
+		<p class="text-danger" ng-show="custList.cust_email.$invalid && custList.cust_email.$dirty">Invalid Email!</p>
+	</div>	
+	<div class="form-group">
+		<label for="Telephone">Telephone:</label>
+		<input type="text" name="cust_telephone" class="form-control" placeholder="Enter Telephone" ng-model="custInfo.telephone" autofocus required />		
+	</div>
+	<div class="form-group">
+		<p class="text-danger" ng-show="custList.cust_telephone.$invalid && custList.cust_telephone.$dirty">Telephone field is Empty!</p>
+	</div>
+	<div class="form-group">
+		<label for="Telephone">Best Time to Call:</label>
+		<input type="text" name="cust_time" class="form-control" placeholder="Enter Best Time to Call" ng-model="custInfo.time" autofocus required />		
+	</div>
+	<div class="form-group">
+		<p class="text-danger" ng-show="custList.cust_time.$invalid && custList.cust_time.$dirty">Best Time field is Empty!</p>
+	</div>
+	<div class="form-group">
+		<label class="radio">Preferred Location:</label>
+			<input type="radio" name="cust_location" ng-model="custInfo.location" value="Elm" autofocus required> Elm St</label>
+			<input type="radio" name="cust_location" ng-model="custInfo.location" value="Temple"> Temple St</label>
+			<input type="radio" name="cust_location" ng-model="custInfo.location" value="Either"> Either</label>
+	</div>
+	<div class="form-group">
+		<p class="text-danger" ng-show="custList.cust_location.$invalid && custList.cust_location.$dirty">Location field is Empty!</p>
+	</div>
+	<div class="form-group">
+		<label for="Unit Size">Unit Size:</label>
+	  	<select name="cust_size" class="form-control" id="selSize" ng-model="custInfo.size" ng-model="custInfo.size" autofocus required>
+		    <option>10 x 10</option>
+		    <option>10 x 15</option>
+		    <option>10 x 20</option>
+		    <option>10 x 25</option>
+		    <option>10 x 40</option>
+		    <option>Not Sure</option>
+	  	</select>	
+	</div>
+	<div class="form-group">
+		<p class="text-danger" ng-show="custList.cust_size.$invalid && custList.cust_size.$dirty">Unit Size field is Empty!</p>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-warning" ng-disabled="custList.$invalid">Submit</button>
+	</div>
+</form>
+
+<!--
+<script>
+var month = new Date();
+month = month.getMonth();
+
+var day = new Date();
+day = day.getDate();
+
+var year = new Date();
+year = year.getFullYear();
+
+var hour = new Date();
+hour = hour.getHours();
+
+var minutes = new Date();
+minutes = minutes.getMinutes();
+
+document.getElementById('nameField').addEventListener("input", timeInput);
+
+function timeInput(){
+var timeField = document.getElementById('submittedTimeInput').value = month + "/" + day + "/" + year + " - " + hour + ":" + minutes;
+console.log(timeField);
+};
+</script>
+-->

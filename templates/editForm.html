@@ -1,0 +1,41 @@
+<!-- Form used for updation of data into database -->
+<form class="form-horizontal alert alert-warning" id="editForm" ng-submit="UpdateInfo(currentUser)" hidden>
+<h3 class="text-center">Update Employee Details</h3>
+	<div class="form-group">
+		<label for="Name">Employee Name:</label>
+		<input type="text" class="form-control" ng-model="currentUser.cust_name" value="{{currentUser.name}}">
+	</div>
+	
+	<div class="form-group">
+		<label for="Email">Email Address:</label>
+		<input type="email" class="form-control" ng-model="currentUser.cust_email" value="{{currentUser.cust_email}}">
+	</div>	
+	<div class="form-group">
+		<label for="Telephone">Telephone:</label>
+		<input type="text" class="form-control" ng-model="currentUser.cust_telephone" value="{{currentUser.cust_telephone}}">
+	</div>
+	<div class="form-group">
+		<label for="Telephone">Best Time to Call:</label>
+		<input type="text" class="form-control" ng-model="currentUser.cust_time" value="{{currentUser.cust_time}}" autofocus required />		
+	</div>
+	<div class="form-group">
+		<label class="radio">Preferred Location:</label>
+			<input type="radio" ng-model="currentUser.custInfo.location" value="Elm"> Elm St</label>
+			<input type="radio" ng-model="currentUser.custInfo.location" value="Temple"> Temple St</label>
+			<input type="radio" ng-model="currentUser.custInfo.location" value="Either"> Either</label>
+	</div>
+	<div class="form-group">
+		<label for="Unit Size">Unit Size:</label>
+	  	<select class="form-control" id="selSize" ng-model="custInfo.size" ng-model="currentUsercustInfo.size">
+		    <option>10 x 10</option>
+		    <option>10 x 15</option>
+		    <option>10 x 20</option>
+		    <option>10 x 25</option>
+		    <option>10 x 40</option>
+		    <option>Not Sure</option>
+	  	</select>	
+	</div>
+	<div class="form-group">
+		<button class="btn btn-warning" ng-disabled="custList.$invalid" ng-click="updateMsg(currentUser.cust_id)">Update</button>
+	</div>
+</form>
