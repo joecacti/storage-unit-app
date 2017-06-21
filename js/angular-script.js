@@ -127,7 +127,7 @@ $scope.updateMsg = function(cust_id){
 $('#editForm').css('display', 'none');
 }
 
-/*
+
 // Date & Time
 var hour = new Date();
 hour = hour.getHours();
@@ -139,7 +139,7 @@ minutes = minutes.getMinutes();
 if (hour < 11 || hour >= 14 ){
 document.getElementById('closed').style.display = "inline-block";
 }
-*/
+
 
 
 }]);
